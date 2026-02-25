@@ -1,0 +1,26 @@
+# --- Project Specifics ---
+# Keep the CSVs
+!datasets/**/*.csv
+
+# --- SQL Server & Database Tools ---
+*.mdf
+*.ldf
+*.bak
+*.log
+*.tmp
+*.sqlsuo
+*.user
+*.suo
+bin/
+obj/
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- System Files ---
+Thumbs.db
+.DS_Store
+desktop.ini
