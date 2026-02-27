@@ -94,7 +94,7 @@ CREATE TABLE telematics_tracking
     car_key INT,
     driver_key INT,
     scan_time DATETIME,
-    truck_status NVARCHAR(20),
+    truck_status NVARCHAR(40),
     pos_gps_lat FLOAT,
     pos_gps_long FLOAT,
 	speed FLOAT,
