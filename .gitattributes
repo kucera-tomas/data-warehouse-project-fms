@@ -1,0 +1,16 @@
+# 1. Force GitHub to recognize SQL files as a language
+*.sql linguist-language=SQL
+*.sql linguist-detectable=true
+
+# 2. Tell GitHub to ignore the datasets folder from language stats
+datasets/* linguist-generated=true
+*.csv linguist-generated=true
+
+# 3. Mark documentation and images explicitly
+docs/* linguist-documentation=true
+*.jpg linguist-documentation=true
+*.png linguist-documentation=true
+*.drawio linguist-documentation=true
+
+*.py linguist-language=Python
+*.py linguist-detectable=true
